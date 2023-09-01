@@ -34,12 +34,14 @@ const Todo = () => {
 						type="button"
 						onClick={addTodo}
 					>
-						Add
+						Add Todo
 					</button>
 				</div>
 			</div>
 
-			<h3>Todo List</h3>
+			{/* display todos  */}
+			{todos.length > 1 ? <h3>Todo List</h3> : <p>No tasks in Todo</p>}
+
 			<ul className="list-group">
 				{todos.map((todo, index) => (
 					<li
