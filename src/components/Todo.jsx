@@ -18,7 +18,7 @@ function TodoApp() {
 	}
 
 	return (
-		<div>
+		<div className="container">
 			<h1>To-Do App</h1>
 			<div>
 				<input

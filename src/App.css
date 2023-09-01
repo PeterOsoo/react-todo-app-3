@@ -1,0 +1,43 @@
+/* TodoApp.css */
+
+/* Add your custom styles here */
+
+/* Example Bootstrap styles */
+.container {
+	text-align: center;
+	font-family: Arial, sans-serif;
+}
+
+.todo-input {
+	padding: 5px;
+	margin-right: 10px;
+}
+
+.todo-button {
+	background-color: green;
+	color: white;
+	padding: 5px 10px;
+	border: none;
+	cursor: pointer;
+}
+
+.todo-list {
+	list-style-type: none;
+	padding: 0;
+}
+
+.todo-item {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	padding: 10px 0;
+}
+
+.remove-button {
+	background-color: red;
+	color: white;
+	padding: 3px 6px;
+	border: none;
+	cursor: pointer;
+}
